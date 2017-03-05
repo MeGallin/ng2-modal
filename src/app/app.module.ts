@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { FadeComponent } from './fade/fade.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FadeComponent
+    FadeComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

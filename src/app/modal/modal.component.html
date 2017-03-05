@@ -1,0 +1,11 @@
+<button type="" (click)="showMe()">Open Modal</button>
+
+<div *ngIf="visible" class="animated fadeInDownBig ">
+    <div [ngClass]="{'foo':true}">
+        <div class="content">
+            <h2>You should be looking at me now</h2>
+            <button type="" (click)="showMe()">Close Modal</button>
+        </div>
+
+    </div>
+</div>
